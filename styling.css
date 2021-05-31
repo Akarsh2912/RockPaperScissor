@@ -1,0 +1,32 @@
+
+body{
+
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.flex-box-container-3
+{
+    display: flex;
+    margin:20px;
+    border: 1px solid red;
+    flex-wrap: wrap ;
+    justify-content:space-around ;
+    padding:20px
+}
+
+
+.container-3{
+    border : 1px solid black;
+    padding:10px;
+    margin:10% 15%;
+    text-align:center;
+    box-shadow:20px 20px 10px black ;
+    background-color: white;
+}
+
+.flex-box-container-3 img:hover{
+    box-shadow: 10px 10px 10px cornflowerblue;
+}

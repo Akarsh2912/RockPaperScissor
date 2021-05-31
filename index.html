@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-3">
+        <h2>Rock Paper & Scissors</h2>
+        <button class="btn btn-danger" onclick="resetgame()">Reset</button>
+        <div class="flex-box-container-3" id="rps" >
+
+            <img src="Rock.png" id="rock" alt="" height="150" width="150" onclick="game(this)">
+            <img src="paper.png" id="paper"alt=""height="150" width="150" onclick="game(this)">
+            <img src="scissor.png" id="scissor"alt=""height="150" width="150" onclick="game(this)">
+
+        </div>
+    
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
